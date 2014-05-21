@@ -1,0 +1,14 @@
+{
+  "name": "crappi",
+  "version": "0.0.0",
+  "description": "A failure testing utility to make your Hapi API more Crappi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi"
+  ],
+  "author": "nrdsrfr",
+  "license": "ISC"
+}
