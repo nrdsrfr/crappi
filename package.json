@@ -16,6 +16,6 @@
   "author": "nrdsrfr",
   "license": "ISC",
   "peerDependencies": {
-    "hapi": ">= 2.x < 5.x"
+    "hapi": ">= 2.x <= 5.x"
   }
 }
