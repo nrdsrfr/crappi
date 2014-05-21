@@ -1,6 +1,6 @@
 {
   "name": "crappi",
-  "version": "0.1.1",
+  "version": "0.1.7",
   "description": "A failure testing utility to make your Hapi API more Crappi",
   "main": "index.js",
   "repository": {
@@ -16,6 +16,6 @@
   "author": "nrdsrfr",
   "license": "ISC",
   "peerDependencies": {
-    "hapi": ">= 2.x <= 5.x"
+    "hapi": "*"
   }
 }
