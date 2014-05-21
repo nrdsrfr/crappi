@@ -1,8 +1,12 @@
 {
   "name": "crappi",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "A failure testing utility to make your Hapi API more Crappi",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nrdsrfr/crappi.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +14,8 @@
     "hapi"
   ],
   "author": "nrdsrfr",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "hapi": ">= 2.x < 5.x"
+  }
 }
