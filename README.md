@@ -1,7 +1,8 @@
 crappi 0.2.0
 ======
+[![Build Status](https://travis-ci.org/nrdsrfr/crappi.svg?branch=master)](https://travis-ci.org/nrdsrfr/crappi)
 
-A failure testing utility to make your Hapi API more Crappi
+A failure testing utility to make your [Hapi](https://github.com/spumko/hapi) API more Crappi
 
 The impetus for this plugin was an internal request to help my ops team debug an issue by randomly increasing API response times by 10 seconds to force a client to timeout.
 
