@@ -1,6 +1,6 @@
 {
   "name": "crappi",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A failure testing utility to make your Hapi API more Crappi",
   "main": "index.js",
   "repository": {

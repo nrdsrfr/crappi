@@ -31,6 +31,11 @@ describe('Crappi', function () {
         path: '/test',
         handler: function (request, reply) {
           reply('success');
+        },
+        config: {
+          plugins: {
+            crappi: true
+          }
         }
       }]
     );
