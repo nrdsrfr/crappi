@@ -1,6 +1,7 @@
 'use strict';
 var Hapi = require('hapi');
 var Lab = require('lab');
+var code = require('code');
 
 var expect = Lab.expect;
 var before = Lab.before;
@@ -23,7 +24,9 @@ describe('Crappi', function () {
 
   it('delays API calls by a specified time at a specified rate', function (done) {
 
-    var server = Hapi.createServer(0);
+    var server = new Hapi.Server(0);
+
+    server.connection();
 
     server.route(
       [{
@@ -40,7 +43,7 @@ describe('Crappi', function () {
       }]
     );
 
-    server.pack.require({ '../': {
+    server.require({ '../': {
         slomo: {
         rate: 100, // percent of calls affected
         time: 1  // number of seconds to delay the response
