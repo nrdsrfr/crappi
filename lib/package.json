@@ -1,0 +1,5 @@
+{
+	"name":"Crappi",
+	"description":"Failure testing utility for Hapijs.",
+	"version":"0.3.2"
+}
